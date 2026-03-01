@@ -1,0 +1,3 @@
+Approach,Features used,Model family,Expected accuracy,Portfolio strength
+A – Simple,Customer segment + region + avg order value + purchase count,Logistic Regression / Random Forest,~55–62%,"Good baseline, easy to explain"
+B – Behavior-based,% spent per category + number of orders per category + recency,XGBoost / LightGBM,~62–68%,"Stronger signal, shows advanced feature engineering"
